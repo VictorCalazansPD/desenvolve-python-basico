@@ -1,0 +1,56 @@
+
+
+1- Entrada:
+
+Subtrai-se 1 do valor de n → (n - 1)
+2. Subtrai-se n de 10 → (10 - n)
+3. Multiplica-se o primeiro resultado por 10 e soma com o segundo:
+   Resultado = (n - 1) * 10 + (10 - n)
+
+O programa deve solicitar ao usuário um número inteiro de 1 a 10.
+
+Processamento:
+Aplicar as regras descritas para calcular 9 * n usando os dois dígitos.
+
+Saída:
+Exibir o resultado da multiplicação de 9 por n.
+
+
+2 - Início
+
+  Escreva "Digite um número de 1 a 10:"
+  Leia n
+
+  Se n < 1 ou n > 10 então
+    Escreva "Número inválido. Digite um valor entre 1 e 10."
+  Senão
+    dezena ← n - 1
+    unidade ← 10 - n
+    resultado ← (dezena * 10) + unidade
+
+    Escreva "Resultado de 9 x", n, "é:", resultado
+  FimSe
+
+Fim
+
+
+
+3- Início
+
+Entrada n
+
+n < 1 ou n > 10?
+
+Sim → Exibir "Número inválido" → Fim
+
+Não →
+
+Calcular dezena = n - 1
+
+Calcular unidade = 10 - n
+
+Calcular resultado = dezena * 10 + unidade
+
+Exibir resultado
+
+Fim
